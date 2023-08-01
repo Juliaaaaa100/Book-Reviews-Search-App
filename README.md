@@ -1,6 +1,6 @@
 # Book-Finder-App
 
-New York Times API : 
+New York Times API : https://developer.nytimes.com/docs/books-product/1/routes/reviews.json/get 
 
 Testing the API: 
 Eg: Michelle Obama
