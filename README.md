@@ -13,7 +13,7 @@ Check it out : https://sunny-meerkat-1ca451.netlify.app/
     - CSS keyframes.
 
 
-# New York Times Book Reviews Search
+# Description of the Project
 
 This project allows you to search for a book name and its reviews from the New York Times API using the author's name.
 
