@@ -12,6 +12,17 @@ Check it out : https://sunny-meerkat-1ca451.netlify.app/
     - New York Times API : https://developer.nytimes.com/docs/books-product/1/routes/reviews.json/get 
     - CSS keyframes.
 
+# Folder Structure
+
+- **style.css:** The CSS file containing the styles for the web page elements
+- **index.html**: The HTML file containing the structure of the web page
+- **app.js:** The JavaScript file containing the logic for fetching data from the New York Times API and displaying the book reviews
+
+# Additional Features
+The web page also includes links to the following social media platforms:
+    Instagram
+    Facebook
+    Twitter
 
 # Description of the Project
 
@@ -41,23 +52,7 @@ Using the fetch function, a network request is made to the New York Times API, s
 - Save searches in the database to track user behavior.
 
 
-# How to use
-Go to the provided link: https://sunny-meerkat-1ca451.netlify.app/
-Enter the name of the author in the "Author" text input field and press the "Search" button
 
-
-# Folder Structure
-
-**style.css:** The CSS file containing the styles for the web page elements
-**index.html**: The HTML file containing the structure of the web page
-**app.js:** The JavaScript file containing the logic for fetching data from the New York Times API and displaying the book reviews
-
-
-# Additional Features
-The web page also includes links to the following social media platforms:
-    Instagram
-    Facebook
-    Twitter
 
 
 
