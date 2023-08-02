@@ -21,14 +21,14 @@ The user can choose an author name an input it in the provided field. After clic
 
 # How it works - Explain the technical details
 
-An event listenr was set up when the page loads. This was done to prevent the default form submission to the server, avoiding page reloading.
-The user input (author's name) is fetched from the input field.
+1. An event listenr was set up when the page loads. This was done to prevent the default form submission to the server, avoiding page reloading.
+2. The user input (author's name) is fetched from the input field.
 Using the fetch function, a network request is made to the New York Times API, searching for book reviews based on the author's name.
-The response is parsed as JSON.
-If the API response status is "OK" and there are reviews available for the author, they are displayed on the page.
-If there are no reviews found for the given author, a corresponding message is displayed.
-The rotating star animation is implemented using CSS keyframes.
-For social media Icons + links were implementing using the Remix Icon library's CSS file. Remix Icon is a popular open-source icon library that provides a vast collection of icons for use in web development projects.
+3. The response is parsed as JSON.
+4. If the API response status is "OK" and there are reviews available for the author, they are displayed on the page.
+5. If there are no reviews found for the given author, a corresponding message is displayed.
+6. The rotating star animation is implemented using CSS keyframes.
+7. For social media Icons + links were implementing using the Remix Icon library's CSS file. Remix Icon is a popular open-source icon library that provides a vast collection of icons for use in web development projects.
 
 # Explain the technical challenges
 - Getting the right data through the API - In 2021, the New York Times decided to no longer support personal use of their API, resulting in the removal of their API Tool.
