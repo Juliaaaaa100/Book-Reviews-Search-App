@@ -4,13 +4,13 @@ Check it out : https://sunny-meerkat-1ca451.netlify.app/
 
 # Technologies Used
 
-HTML
-CSS
-JavaScript
+  HTML
+  CSS
+  JavaScript
 
-Remix Icon library's CSS file
-New York Times API : https://developer.nytimes.com/docs/books-product/1/routes/reviews.json/get 
-CSS keyframes.
+  Remix Icon library's CSS file
+  New York Times API : https://developer.nytimes.com/docs/books-product/1/routes/reviews.json/get 
+  CSS keyframes.
 
 
 # New York Times Book Reviews Search
