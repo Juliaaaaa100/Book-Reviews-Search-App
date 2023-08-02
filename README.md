@@ -52,3 +52,7 @@ The web page also includes links to the following social media platforms:
 Instagram
 Facebook
 Twitter
+
+![Screenshot 2023-08-02 at 20 21 01](https://github.com/Juliaaaaa100/Book-Finder-App/assets/119536668/ab849902-1c67-4b91-9d4e-934afa1039c2)
+
+
