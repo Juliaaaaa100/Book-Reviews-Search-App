@@ -1,4 +1,6 @@
-# Book-Finder-App
+# Book-Finder-App 
+
+Check it out : https://sunny-meerkat-1ca451.netlify.app/
 
 New York Times API : https://developer.nytimes.com/docs/books-product/1/routes/reviews.json/get 
 
