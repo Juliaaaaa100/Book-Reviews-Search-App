@@ -28,7 +28,7 @@ Using the fetch function, a network request is made to the New York Times API, s
 4. If the API response status is "OK" and there are reviews available for the author, they are displayed on the page.
 5. If there are no reviews found for the given author, a corresponding message is displayed.
 6. The rotating star animation is implemented using CSS keyframes.
-7. For social media Icons + links were implementing using the Remix Icon library's CSS file. Remix Icon is a popular open-source icon library that provides a vast collection of icons for use in web development projects.
+7. For social media Icons + links were implemented using the Remix Icon library's CSS file. Remix Icon is a popular open-source icon library that provides a vast collection of icons for use in web development projects.
 
 # Explain the technical challenges
 - Getting the right data through the API - In 2021, the New York Times decided to no longer support personal use of their API, resulting in the removal of their API Tool.
