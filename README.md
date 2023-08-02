@@ -20,9 +20,9 @@ Check it out : https://sunny-meerkat-1ca451.netlify.app/
 
 # Additional Features
 The web page also includes links to the following social media platforms:
-    Instagram
-    Facebook
-    Twitter
+   -  Instagram
+   -  Facebook
+   -  Twitter
 
 # Description of the Project
 
