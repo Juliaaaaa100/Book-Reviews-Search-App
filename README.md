@@ -47,10 +47,10 @@ Enter the name of the author in the "Author" text input field and press the "Sea
 
 
 # Folder Structure
-The project consists of the following files:
-    - **style.css:** The CSS file containing the styles for the web page elements
-    - **index.html**: The HTML file containing the structure of the web page
-    - **app.js:** The JavaScript file containing the logic for fetching data from the New York Times API and displaying the book reviews
+
+      - **style.css:** The CSS file containing the styles for the web page elements
+      - **index.html**: The HTML file containing the structure of the web page
+      - **app.js:** The JavaScript file containing the logic for fetching data from the New York Times API and displaying the book reviews
 
 
 # Additional Features
