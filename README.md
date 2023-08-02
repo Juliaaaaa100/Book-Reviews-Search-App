@@ -12,7 +12,7 @@ https://api.nytimes.com/svc/books/v3/reviews.json?author=Michelle%20Obama&api-ke
 
 # New York Times Book Reviews Search
 
-This project allows you to search for the book abook reviews from the New York Times API using the author's name. 
+This project allows you to search for a book name and its reviews from the New York Times API using the author's name.
 
 The user can input an author's name in the provided text field, and upon clicking the "Search" button, the application fetches data from the API and displays the book reviews, if available.
 
