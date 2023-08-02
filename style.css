@@ -1,0 +1,199 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh;
+  background-color: #70c3ca;
+}
+
+p {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 500px;
+  color: black;
+  line-height: 1.6;
+  margin: 10 px 0;
+}
+
+review {
+  color: red;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #40dcab;
+  border: none;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 10px;
+}
+
+.carte_inchisa img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  padding: 20px;
+  width: 150px;
+
+}
+.carte img {
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.carte_inchisa {
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.carte_inchisa img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  padding: 20px;
+  width: 150px;
+  transform: rotate(0deg);
+}
+
+
+
+
+/* Apply the animation to the picture */
+.carte_inchisa img {
+  animation: rotateAnimation 4s linear ; /* Adjust the duration (4s) as per your preference */
+}
+ 
+.carte img {
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.stars-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  
+}
+
+#green_star {
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  animation-name: movingStars;
+  animation-duration: 3s;
+}
+
+.stars-container {
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  animation-name: movingStar;
+  animation-duration: 2s;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333; /* Change the color of the icon and text */
+  text-decoration: none; /* Remove the default underline on the links */
+}
+
+.icon {
+  font-size: 24px; /* Adjust the icon size */
+}
+
+/* Add hover effect for the icons */
+.icon:hover {
+  color: #007bff; /* Change the color on hover */
+}
+
+/* 
+.online_store {
+  margin-right: 10px; /
+}
+
+
+.online_store{
+  text-decoration: none;
+}
+
+.online_store {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; 
+  text-decoration: none;
+} */
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes movingStar {
+  0%   {left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+/* change color background when the screen size is less than less than 600 px*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(203, 173, 230);
+  }
+  .stars-container img {
+    background-color: rgb(203, 173, 230);
+  }
+}
